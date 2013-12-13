@@ -21,9 +21,9 @@ var validity = require('validity')
   , createValidator = require('validity-equal')
 
 var schema = schemata(
-    { waitTime:
+    { agreedToTerms:
       { type: Number
-      , agreedToTerms: { all: [ createValidator(true, 'Must agree to T&Cs') ] }
+      , validators: { all: [ createValidator(true, 'Must agree to T&Cs') ] }
       }
     })
 
