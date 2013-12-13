@@ -22,7 +22,7 @@ var validity = require('validity')
 
 var schema = schemata(
     { agreedToTerms:
-      { type: Number
+      { type: Boolean
       , validators: { all: [ createValidator(true, 'Must agree to T&Cs') ] }
       }
     })
