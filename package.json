@@ -1,7 +1,7 @@
 {
   "name": "validity-equal",
   "version": "0.1.0",
-  "description": "Validity style validator to ensure a property is either null or numeric (and not NaN)",
+  "description": "Validity style validator to ensure a property is equal to some primitive value",
   "main": "validator.js",
   "directories": {
     "test": "test"
